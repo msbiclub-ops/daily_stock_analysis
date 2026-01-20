@@ -44,7 +44,7 @@ jobs:
       - name: 执行股票分析
         env:
           # Gemini AI
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || 'AIzaSyD-ixWnsfkCEUxEDgVmgv0CAug-9NP6k14' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY || 'AIzaSyCsIR7LeuAkDswr8fA7lSh-fyT2ltzLm8w' }}
           GEMINI_MODEL: ${{ secrets.GEMINI_MODEL || 'gemini-3-flash-preview' }}
           GEMINI_MODEL_FALLBACK: ${{ secrets.GEMINI_MODEL_FALLBACK || 'gemini-2.5-flash' }}
           GEMINI_REQUEST_DELAY: '3.0'  # GitHub Actions 建议增加延时
