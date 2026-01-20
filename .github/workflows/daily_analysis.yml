@@ -83,7 +83,7 @@ jobs:
 
           
           # 自选股列表 (从 secrets 或使用默认值)
-          STOCK_LIST: ${{ secrets.STOCK_LIST || '600970,300438' }}
+          STOCK_LIST: ${{ secrets.STOCK_LIST || '600970,300438,002475,601899,000014,300201' }}
           
           # 其他配置
           LOG_LEVEL: INFO
